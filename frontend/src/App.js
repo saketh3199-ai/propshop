@@ -8,6 +8,8 @@ const App = () =>
     <p>Welcome to proshop</p>
     <button>Hello.</button>
   </div>
+
+  return AppElement
 }
 
 export default App
