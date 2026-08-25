@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
-import dns from "dns"; // added this
+// import dns from "dns"; // added this
 
-dns.setServers(["8.8.8.8", "8.8.4.4"]); //added this to resolve the issue with connecting express and mongoose
+// dns.setServers(["8.8.8.8", "8.8.4.4"]); //added this to resolve the issue with connecting express and mongoose
 
 
 const connectDB = async ()=>
